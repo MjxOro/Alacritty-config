@@ -1,8 +1,18 @@
+#=======================================================================================
+
+env:
+  TERM: xterm-256color
+
+#=======================================================================================
+
 window:
   dimensions:
-    columns: 300
-    lines: 100
-  decorations: none
+    columns: 200
+    #columns: 400
+    lines: 75
+    #lines: 125
+  #dcorations: transparent
+  decorations: buttonless
   padding:
     x: 10
     y: 10
@@ -11,7 +21,12 @@ scrolling:
  history: 10000
  multiplier: 3
 
+position:
+    x: 10
+    y: 10
+
 #Fonts
+#=======================================================================================
 
 font:
   normal:
@@ -32,7 +47,10 @@ font:
     y: 0
 use_thin_strokes: false;
 
+#=======================================================================================
+
 #Color settings====Currently: Nord====
+#=======================================================================================
 
 colors:
   primary:
@@ -82,6 +100,8 @@ colors:
     magenta: '#8c738c'
     cyan: '#6d96a5'
     white: '#aeb3bb'
+
+#=======================================================================================
   #dynamic_padding: false
 
   # Window decorations
